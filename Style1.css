@@ -1,0 +1,12 @@
+.container{
+    background-color: burlywood;
+    border: 3px solid black;
+    padding: 19px;
+    margin: 34px;
+    /* we can set padding lef and right padding like this
+    padding-bottom: 70px
+    padding -left: 30px;
+    margin-bottom: 10px;
+    margin-left:50px;
+     */
+}
