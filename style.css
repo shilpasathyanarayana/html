@@ -1,26 +1,134 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'poppins',sans-serif;
-    box-sizing:border-box;
+body {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    color: black;
+    background-size: 100% 700px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(114, 113, 113);
 }
-a{
-    text-decoration:none;
-    color:#5a5a5a;
+
+.first {
+    background: url(main.jpeg) no-repeat;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    height: 500px;
+    background-size: 100% 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    line-height: 0px;
+    font-size: 20px;
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    text-align: center;
 
 }
-img{
+
+.mid {
+    display: block;
+    width: 55%;
+    margin: 12px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 25px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: white;
+}
+.button {
+    color: black;
+    margin: 5px 5px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 20px;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
-.flex-div{
-    display: flex;
-    align-items: center; 
+
+.button:hover {
+    background-color: rgb(118, 116, 116);
 }
-/* nav bar is used to get a horizontal bars  */
-nav{
-    padding: 10px 2%;
-    justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    background: #fff;
+
+.container {
+    margin: 0px 0px;
+    padding: 50px;
+    width: 25%;
+    /* border:3px solid black;
+    border-radius: 1px; */
 }
+
+.form-group input {
+    text-align: centre;
+    display: block;
+    width: 300px;
+    margin: 11px auto;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    right: 0px;
+}
+
+.form-group h1 {
+    text-align: centre;
+}
+.mycontainer{
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+.col-8{
+    background-color:rgb(185, 183, 183);
+}
+.col-md-8{
+    background-color:rgb(185, 183, 183);
+}
+.p-3{
+    height: 500px;
+}
+.address{
+    text-align: right;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
